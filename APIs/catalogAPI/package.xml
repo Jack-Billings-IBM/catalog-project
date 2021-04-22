@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="catalogapi">
+    <apiSpec title="catalogapi" basePath="/catalogapi" description="" version="1.0.0">
+        <path relativePath="/items?startItemID">
+            <method type="GET" zosConnectServiceRef="inquireCatalogService" httpXformFile="api/items/GET/mapping.xml" operationId="getInquireCatalogService"/>
+        </path>
+        <path relativePath="/item/{itemID}">
+            <method type="GET" zosConnectServiceRef="inquireSingleService" httpXformFile="api/item/{itemID}/GET/mapping.xml" operationId="getInquireSingleService"/>
+        </path>
+        <path relativePath="/orders">
+            <method type="POST" zosConnectServiceRef="placeOrderService" httpXformFile="api/orders/POST/mapping.xml" operationId="postPlaceOrderService"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>
