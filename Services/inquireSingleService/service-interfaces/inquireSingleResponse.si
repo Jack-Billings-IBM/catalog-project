@@ -42,7 +42,7 @@
                         </marshaller>
                         <applicationDatatype datatype="DECIMAL" precision="4" scale="0"/>
                     </field>
-                    <field name="FILL_0" originalName="FILL_0" included="N" path="DFH0XCP4.CA_INQUIRE_SINGLE.FILL_0">
+                    <field name="FILL_0" originalName="FILL_0" included="Y" path="DFH0XCP4.CA_INQUIRE_SINGLE.FILL_0">
                         <startPos>92</startPos>
                         <bytes>4</bytes>
                         <maxBytes>4</maxBytes>
