@@ -44,7 +44,7 @@
                         <field included="Y" fieldName="CA_SINGLE_RESPONSE_MESSAGE"/>
                         <field included="Y" fieldName="CA_INQUIRE_SINGLE">
                             <field included="N" fieldName="CA_ITEM_REF_REQ"/>
-                            <field included="N" fieldName="FILL_0"/>
+                            <field included="Y" fieldName="FILL_0"/>
                             <field included="N" fieldName="FILL_1"/>
                             <field included="Y" fieldName="CA_SINGLE_ITEM">
 <field included="Y" fieldName="CA_SNGL_ITEM_REF"/>
@@ -52,7 +52,7 @@
 <field included="Y" fieldName="CA_SNGL_DEPARTMENT"/>
 <field included="Y" fieldName="CA_SNGL_COST"/>
 <field included="Y" fieldName="IN_SNGL_STOCK"/>
-<field included="N" fieldName="ON_SNGL_ORDER"/>
+<field included="Y" fieldName="ON_SNGL_ORDER"/>
                             </field>
                         </field>
                     </interfaceField>
